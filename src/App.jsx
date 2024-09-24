@@ -1,12 +1,13 @@
 import React from 'react';
+import './App.css';
 import Header from './components/Header';
 import Inicio from './components/Inicio';
 import SobreMi from './components/SobreMi';
 import Habilidades from './components/Habilidades';
 import Proyectos from './components/Proyectos';
-import Gitignore from './components/Gitignore'; 
+import Gitignore from './components/Gitignore';
 import Contacto from './components/Contacto';
-import './App.css';
+import Footer from './components/Footer'; 
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       <SobreMi />
       <Habilidades />
       <Proyectos />
-      <Gitignore /> 
+      <Gitignore />
       <Contacto />
+      <Footer /> 
     </div>
   );
 }

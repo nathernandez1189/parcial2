@@ -24,17 +24,17 @@ const proyectos = [
   },
   {
     nombre: "Clase Virtual",
-    descripcion: "Gestión de clases virtuales.",
+    descripcion: "Gestión de clases virtuales: En este proyecto, trabajamos con conceptos básicos de JavaScript, incluyendo condicionales y funciones flecha. Inicialmente, configuramos el entorno y realizamos ejercicios básicos, luego finalizamos las condicionales y corregimos errores en funciones flecha.",
     enlace: "https://github.com/nathernandez1189/Clase-virtual.git"
   },
   {
     nombre: "Jueves 12 Sep",
-    descripcion: "Proyecto del 12 de septiembre.",
+    descripcion: "Proyecto del 12 de septiembre: ealizamos un contador utilizando JavaScript. El objetivo era implementar un contador que se actualiza automáticamente con un intervalo de tiempo, además de manejar eventos como promesas, temporizadores (setTimeout y setInterval), y operadores ternarios para optimizar el código.",
     enlace: "https://github.com/nathernandez1189/jueves12sep.git"
   },
   {
     nombre: "Mi Primer Proyecto React",
-    descripcion: "Primer proyecto en React.",
+    descripcion: "Primer proyecto en React: El 19 de septiembre de 2024, iniciamos un proyecto en React. Realizamos los primeros commits para configurar el repositorio, fusionar ramas y actualizar el archivo README.md.",
     enlace: "https://github.com/nathernandez1189/mi-primer-proyecto-react.git"
   }
 ];

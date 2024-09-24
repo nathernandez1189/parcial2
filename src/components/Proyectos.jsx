@@ -28,8 +28,8 @@ const proyectos = [
     enlace: "https://github.com/nathernandez1189/Clase-virtual.git"
   },
   {
-    nombre: "Jueves 12 Sep",
-    descripcion: "Proyecto del 12 de septiembre: ealizamos un contador utilizando JavaScript. El objetivo era implementar un contador que se actualiza automáticamente con un intervalo de tiempo, además de manejar eventos como promesas, temporizadores (setTimeout y setInterval), y operadores ternarios para optimizar el código.",
+    nombre: "Contador",
+    descripcion: "Proyecto del 12 de septiembre: Realizamos un contador utilizando JavaScript. El objetivo era implementar un contador que se actualiza automáticamente con un intervalo de tiempo, además de manejar eventos como promesas, temporizadores (setTimeout y setInterval), y operadores ternarios para optimizar el código.",
     enlace: "https://github.com/nathernandez1189/jueves12sep.git"
   },
   {

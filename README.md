@@ -1,4 +1,4 @@
-# Portafolio Profesional
+# Portafolio profesional
 
 Este es un proyecto de portafolio profesional creado con **React** y **Vite**. El propósito de este proyecto es mostrar mis habilidades técnicas y proyectos en un sitio web profesional y responsive.
 
@@ -13,7 +13,7 @@ Este portafolio tiene como objetivo demostrar mis competencias en el desarrollo 
 - **Componentes modulares**: Utiliza React para organizar las diferentes secciones de la página en componentes reutilizables, lo que facilita la mantenibilidad y escalabilidad del código.
 - **Navegación fluida**: La barra de navegación permanece visible en la parte superior mientras el usuario se desplaza por la página, proporcionando una mejor experiencia de navegación.
 
-## Tecnologías Utilizadas
+## Tecnologías utilizadas
 
 Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 
@@ -34,11 +34,16 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
    Accede al directorio del proyecto: cd nombre-del-repositorio
    Instala las dependencias necesarias: npm install
 
-#Cómo Ejecutar el Proyecto
-Una vez que las dependencias estén instaladas, puedes ejecutar el proyecto en un servidor local utilizando el siguiente comando: npm run dev
+## Cómo ejecutar el proyecto
+
+Una vez que las dependencias estén instaladas, puedes ejecutar el proyecto en un servidor local utilizando el siguiente comando:
+
+```bash
+npm run dev
+
 Esto iniciará el servidor de desarrollo de Vite. La aplicación será accesible en http://localhost:3000.
 
-#Estructura del Proyecto
+## Estructura del proyecto
 public/: Contiene los archivos estáticos y la plantilla base del HTML.
 src/: Aquí se encuentran los archivos principales del código fuente de React, incluyendo los componentes, el archivo principal App.jsx y los estilos en App.css.
 package.json: Define las dependencias y scripts del proyecto.

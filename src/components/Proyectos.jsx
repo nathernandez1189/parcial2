@@ -36,6 +36,11 @@ const proyectos = [
     nombre: "Mi Primer Proyecto React",
     descripcion: "Primer proyecto en React: El 19 de septiembre de 2024, iniciamos un proyecto en React. Realizamos los primeros commits para configurar el repositorio, fusionar ramas y actualizar el archivo README.md.",
     enlace: "https://github.com/nathernandez1189/mi-primer-proyecto-react.git"
+  },
+  {
+    nombre: "Componente de Video Incrustado en React",
+    descripcion: "Este componente permite la incrustación de videos utilizando un iframe, ideal para mostrar contenido de YouTube dentro de una aplicación React. Acepta dos propiedades: un enlace de video y un texto descriptivo que se visualiza debajo del video.",
+    enlace: "https://github.com/nathernandez1189/clase-10.git"
   }
 ];
 

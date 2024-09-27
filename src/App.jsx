@@ -5,9 +5,9 @@ import Inicio from './components/Inicio';
 import SobreMi from './components/SobreMi';
 import Habilidades from './components/Habilidades';
 import Proyectos from './components/Proyectos';
-import Gitignore from './components/Gitignore';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer'; 
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
       <SobreMi />
       <Habilidades />
       <Proyectos />
-      <Gitignore />
       <Contacto />
       <Footer /> 
+      <ScrollToTop />
     </div>
   );
 }

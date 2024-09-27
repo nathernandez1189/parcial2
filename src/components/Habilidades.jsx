@@ -33,6 +33,12 @@ const Habilidades = () => {
             <h3>Idiomas</h3>
             <p>Español (Nativo), Inglés (Medio)</p>
           </div>
+
+          {/* Habilidades Duras */}
+          <div className="habilidad">
+            <h3>Habilidades Duras</h3>
+            <p>Simulaciones en VR/AR, Modelado 3D, Desarrollo de Aplicaciones Multimedia, Producción y Edición de Audio y Video</p>
+          </div>
         </div>
       </div>
     </section>

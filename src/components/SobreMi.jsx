@@ -1,5 +1,6 @@
 import React from 'react';
 import fotodeperfil from '../Img/miperfil.jpeg'
+import './SobreMi.css';
 
 const SobreMi = () => {
   return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Proyectos.css';
 
 // Aquí están todos tus proyectos, tanto los antiguos como los nuevos.
 const proyectos = [

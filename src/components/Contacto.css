@@ -1,0 +1,93 @@
+.contacto-section {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+  }
+  .contacto-subtitulo {
+    color: #000000;
+    font-weight: bold; 
+    margin-right: 10px;
+  }
+  
+  .contacto-section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #1e1e1e;
+  }
+  
+  .contacto-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .contacto-info {
+    flex: 1;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  
+  .contacto-info p {
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  
+  .contacto-info i {
+    color: #ff4b2b;
+    margin-right: 10px;
+  }
+  
+  .contacto-info a {
+    color: #555;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .contacto-info a:hover {
+    color: #ff4b2b;
+    transform: translateY(-3px);
+  }
+  
+  .contacto-form {
+    flex: 1;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contacto-form input,
+  .contacto-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .contacto-form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4b2b;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contacto-form button:hover {
+    background-color: #e43e1b;
+  }

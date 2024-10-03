@@ -1,57 +1,65 @@
 .inicio-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('../img/fondo.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    text-align: center;
-    color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.inicio-content {
+  position: relative;
+  z-index: 2;
+}
+
+.inicio-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.inicio-content h1 span {
+  color: #ff4b2b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.inicio-content p {
+  font-size: 22px; 
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255); 
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #ff4b2b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e43e1b;
+}
+
+.fall-animation {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #fff;
+  animation: fallIn 1s ease-out forwards;
+  opacity: 0; 
+}
+
+@keyframes fallIn {
+  0% {
+    transform: translateY(-50px); 
+    opacity: 0;
   }
-  
-  .inicio-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(30, 30, 30, 0.7);
-    z-index: 1;
+  100% {
+    transform: translateY(0); 
+    opacity: 1;
   }
-  
-  .inicio-content {
-    position: relative;
-    z-index: 2;
-  }
-  
-  .inicio-content h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-  }
-  
-  .inicio-content h1 span {
-    color: #ff4b2b;
-  }
-  
-  .inicio-content p {
-    font-size: 24px;
-    margin-bottom: 30px;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 10px 30px;
-    background-color: #ff4b2b;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: #e43e1b;
-  }
-  
+}
